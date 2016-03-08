@@ -13,7 +13,7 @@ public class MainActivity extends FragmentActivity {
 
     /**
      * called upon creation of the activity
-     * @param savedInstanceState rtetj yet y y yej5
+     * @param savedInstanceState the saved instance state
      */
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -21,7 +21,7 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.main_layout);
 
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container,new OtterFragment() ).commit();
-    }//trheyjeyj
+    }
 
     /**
      * called when the orca button is clicked on
